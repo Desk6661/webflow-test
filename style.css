@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black!important;
+}
+
+.bred{
+    border: 1px solid red;
+}
+.bblue{
+    border: 1px solid blue;
+}
+
+.h-50 {
+    height: 50px;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.h-300 {
+    height: 300px;
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.h-500 {
+    height: 500px;
+}
+
+.home-page {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.second-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(second-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.bg-wall {
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(13, 13, 13, 0.834) 68%, rgba(255, 255, 255, 0.01181722689075626) 100%);
+}
+
+.btn-1{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    border: none;
+}
+
+.btn-2{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.third-section{
+    width: 100%;
+    height: 120vh;
+}
+
+.t-span{
+    padding: 6px 12px;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    border: 1px solid rgb(133, 133, 133);
+}
+
+.t-card{
+    background-image: url(t-card-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.t-c{
+    width: 100%;
+    height: 100%;
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(54,54,54,0.7429096638655462) 50%, rgba(0,0,0,1) 100%);
+}
